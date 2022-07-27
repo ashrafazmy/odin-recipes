@@ -1,0 +1,45 @@
+body{
+    background-color: beige;
+    font-family:'Courier New', Courier, monospace;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.steak,
+.chou,
+.egg {
+    font-size: 28px;
+}
+
+.image {
+   
+    float:left;
+    width: 25%;
+    padding: 4%;
+}
+
+.row::after {
+    content:"";
+    clear: both;
+    display:table;
+}
+
+h2 {
+    text-align: justify;
+    font-size: 40px;
+}
+
+li,
+p {
+    text-align: justify;
+    font-size: 24px;
+}
